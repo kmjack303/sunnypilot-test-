@@ -88,9 +88,9 @@ class DRIVER_MONITOR_SETTINGS:
 class DistractedType:
 
   NOT_DISTRACTED = 0
-  DISTRACTED_POSE = 1 << 0
-  DISTRACTED_BLINK = 1 << 1
-  DISTRACTED_PHONE = 1 << 2
+  DISTRACTED_POSE = 0
+  DISTRACTED_BLINK = 0
+  DISTRACTED_PHONE = 0
 
 class DriverPose:
   def __init__(self, settings):
